@@ -3,7 +3,7 @@
     display: flex;
     margin: auto;
     margin-top: 3ch;
-    justify-content: center;
+    justify-content: center;                   /* Design to Navigation Bar flex box */
     align-items: center; 
     background-image: url('star.jpg');
     padding: 10px;
@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
 
-    width: 390px;
+    width: 390px;                             /* Design to Navigation Bar contents */
     height: 70px;
     color: white;
     margin: 10px;  
@@ -32,7 +32,7 @@
 {
     background-image: url('galaxy.png');
     background-size:1500px;
-    height: 400px;
+    height: 400px;                                  /* Design to Photo Bar */
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -41,7 +41,7 @@
 {
     width: 390px;
     height: auto;
-    margin-top: 7ch;
+    margin-top: 7ch;                                /* Design to Photo Image */
 
     display: block;
     margin-left: auto;
@@ -55,7 +55,7 @@
     height: 70px;
     color: white;
     font-family: "Garamond", serif;
-    font-size: 30px;
+    font-size: 30px;                               /* Design to Project Title */
     font-weight:normal;
 
     margin-top: 7ch;
@@ -66,7 +66,7 @@
 
 .Projects_Bar
 {
-    display: flex;
+    display: flex;                                  /* Design to Project Bar flex box */
     margin: auto;
     justify-content: center;
     align-items: center; 
@@ -82,7 +82,7 @@
     height: auto;
 
     border-style: dashed;
-    border-width: 2px;
+    border-width: 2px;                                      /* Design to Project Number 1 */
     border-color: white;
     
 }
@@ -94,7 +94,7 @@
 
     border-style: dashed;
     border-width: 2px;
-    border-color: white;
+    border-color: white;                                /* Design to Project Number 2 */
 }
 
 #CMSC150
@@ -103,20 +103,20 @@
     height: auto;
 
     border-style: dashed;
-    border-width: 2px;
+    border-width: 2px;                                     /* Design to Project Number 3 */
     border-color: white;
 }
 
 .Projects_Bar img
 {
-    display: block;
+    display: block;                                         /* Design to Project Bar background */
     margin-left: auto;
     margin-right: auto;
 }
 
 .skill_auto_bar 
 {
-    display: flex;
+    display: flex;                                          /* Skills/Autobiography flex box */
     
 }
 
@@ -127,7 +127,7 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 10ch;
-    height: 360px;
+    height: 360px;                                          /* Design to Skills and Autobiography flex items*/
     padding: 5px;
     justify-content: center;
     width: 100%;
@@ -143,7 +143,7 @@
     font-family: "Garamond", serif;
     font-size: 40px;
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 5px;                                     /* Design to skills and autobiography title */
     align-items: center;
     margin-top: 10px;
     font-weight: bolder;
@@ -154,7 +154,7 @@
 {
     font-family: "Garamond", serif;
     font-size: 15px;
-    color: white;
+    color: white;                                          /* Design to skills and autobiography content */
     margin-top: -10px;
     align-items: center;
     flex-wrap: wrap;
@@ -162,7 +162,7 @@
 
 .Skills_Bar 
 {
-    width: 50%;
+    width: 50%;                                                 /* Design to skills flex item */
     background-position: left;
     flex-wrap: wrap;
 }
@@ -170,7 +170,7 @@
 .Auto_Bar 
 {
     width: 50%;
-    background-position: right;
+    background-position: right;                                 /* Design to autobiography flex item */
     flex-wrap: wrap;
 }
 
@@ -180,7 +180,7 @@
     display: flex;
     align-items: center;
    
-    margin-top: 10ch;
+    margin-top: 10ch;                                           /* Design to Footer flex box */
     height: 300px;
     width: 100%;
     padding: 5px;
@@ -193,7 +193,7 @@
 .footer img
 {
     width: 350px;
-    height: auto;
+    height: auto;                                               /* Design to Logo*/
 
     display: block;
     width: 25%;
@@ -204,14 +204,17 @@
     font-size: 20px; 
     font-family: "Garamond", serif;
 
-    width: 350px;
+    width: 350px;                                               /* Design to details */
     height: auto;
 
     display: block;
     width: 25%;
+
+    color: white;                                           
+    margin-bottom: 10px;
 }
 
 .info {
-    color: white;
+    color: white;                                           /* Design to details */
     margin-bottom: 10px;
 }
