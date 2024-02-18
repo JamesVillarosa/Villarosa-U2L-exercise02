@@ -1,11 +1,13 @@
 .Navigation_Bar
 {
     display: flex;
-    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 3ch;
+    justify-content: center;
     align-items: center; 
-    background-image: url('wallpaper.jpg');
+    background-image: url('star.jpg');
     padding: 10px;
-    width: 100%;
+    width: 90%;
     flex-wrap: wrap;
 }
 
@@ -26,6 +28,22 @@
     border-width: 3px;
 }
 
-/* .letter1 { background-color: red; }
-.letter2 { background-color: green; }
-.letter3 { background-color: blue; } */
+.Photo
+{
+    background-image: url('galaxy.jpg');
+    background-size:1300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Photo img
+{
+    width: 250px;
+    height: auto;
+    margin-top: 3ch;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
