@@ -117,16 +117,21 @@
 .skill_auto_bar 
 {
     display: flex;
+    
 }
 
 .Skills_Bar,.Auto_Bar 
 {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin-top: 10ch;
-    height: 350px;
+    height: 360px;
     padding: 5px;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
     background-image: url('constellation.png');
     background-size: 1000px;
     background-position: center;
@@ -142,25 +147,71 @@
     align-items: center;
     margin-top: 10px;
     font-weight: bolder;
+    flex-direction: column;
 }
 
 .skills,.auto 
 {
     font-family: "Garamond", serif;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
-    margin-top: 1px;
+    margin-top: -10px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .Skills_Bar 
 {
     width: 50%;
     background-position: left;
+    flex-wrap: wrap;
 }
 
 .Auto_Bar 
 {
     width: 50%;
     background-position: right;
+    flex-wrap: wrap;
+}
+
+.footer
+{
+    display: flex;
+    display: flex;
+    align-items: center;
+   
+    margin-top: 10ch;
+    height: 300px;
+    width: 100%;
+    padding: 5px;
+    background-image: url('planets.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer img
+{
+    width: 350px;
+    height: auto;
+
+    display: block;
+    width: 25%;
+}
+
+.info-container {
+    flex: 5;
+    font-size: 20px; 
+    font-family: "Garamond", serif;
+
+    width: 350px;
+    height: auto;
+
+    display: block;
+    width: 25%;
+}
+
+.info {
+    color: white;
+    margin-bottom: 10px;
 }
