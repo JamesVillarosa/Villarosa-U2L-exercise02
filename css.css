@@ -1,0 +1,31 @@
+.Navigation_Bar
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    background-image: url('wallpaper.jpg');
+    padding: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.Nav_Bar_Letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 390px;
+    height: 70px;
+    color: white;
+    margin: 10px;  
+    font-family: "Garamond", serif;
+    font-size: 30px;
+    font-weight: bold;
+
+    border-style: dotted;
+    border-width: 3px;
+}
+
+/* .letter1 { background-color: red; }
+.letter2 { background-color: green; }
+.letter3 { background-color: blue; } */
